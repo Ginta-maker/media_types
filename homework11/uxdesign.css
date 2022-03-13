@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    background-color: rgb(224, 224, 224);
+}
+.header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-wrap: normal;
+    font-size: 1.4em;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.card {
+    width: 96%;
+    height: 190px;
+    background-color: #fff;
+    margin: 15px 8px;
+    text-align: left;
+    border-radius: 0 0 25px 25px;
+    border-top: 25px solid rgb(238, 55, 141);
+}
+.wrapper .card:nth-child(2){
+      border-top: 25px solid rgb(28, 171, 187);  
+}
+.wrapper .card:nth-child(3){
+    border-top: 25px solid rgb(30, 206, 115);  
+}
+.wrapper .card:nth-child(4){
+    border-top: 25px solid rgb(223, 223, 53);  
+}
+.wrapper .card:nth-child(5){
+    border-top: 25px solid rgba(119, 33, 172, 0.657);  
+}
+.wrapper .card:nth-child(6){
+    border-top: 25px solid rgba(233, 13, 200, 0.461);  
+}
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(238, 55, 141);
+    margin: 15px;
+}
+.blue-bg {
+    background-color: rgb(28, 171, 187);
+}
+.green-bg {
+    background-color: rgb(30, 206, 115);
+}
+.yellow-bg {
+    background-color: rgb(223, 223, 53);
+}
+.purple-bg {
+    background-color: rgba(119, 33, 172, 0.657);
+}
+.pink-bg {
+    background-color: rgba(233, 13, 200, 0.461);
+}
+.fa-thin {
+    color: #fff;
+    align-items: center;
+    margin: 18px;
+}
+.descri {
+    margin: 5px 20px;
+    color: rgb(114, 114, 114);
+    font-weight: bold;
+}
+.description {
+   margin: 5px 20px;
+   font-size: .9em;
+}
+.wrapper button {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(238, 55, 141);
+    padding: 15px;
+    margin: 20px;
+    color: #fff;
+}
+
+@media screen and (min-width: 481px){
+    .descri {
+        margin: 10px 25px;
+        font-size: 1.3em;
+    }
+    .description {
+       margin: 10px 25px;
+       font-size: 1em;
+    }
+}
+@media screen and (min-width: 769px){
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 30px;
+    }
+    .wrapper {
+        padding: 30px;
+    }
+    .header {
+        font-size: 2.2em;
+        margin: 20px;
+    }
+    .card {
+        width: 45%;
+        height: 220px;
+    }
+    .img {
+        width: 60px;
+        height: 60px;
+    }
+    .fa-thin {
+        font-size: 1.8em;
+    }
+    .descri {
+        font-size: 1.5em;
+    }
+    .description {
+       font-size: 1.2em;
+    }
+    .wrapper button {
+        padding: 25px;
+       margin-left: 50px;
+    }
+}
+@media screen and (min-width: 1025px){
+    .header {
+        font-size: 3em;
+    }
+    .card {
+        width: 30%;
+        height: 240px;
+    }
+}
+@media screen and (min-width: 1281px){
+    .header {
+        font-size: 3.5em;
+    }
+    .descri {
+        font-size: 1.8em;
+    }
+    .description {
+       font-size: 1.4em;
+    }
+    
+}
+    
+
+    
+
+
+
+
